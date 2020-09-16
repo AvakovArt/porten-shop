@@ -2,10 +2,12 @@
   padding: 93px 0
   display: flex
 .season
+  width: 50%
   display: flex
   flex-direction: column
   justify-content: center
   align-items: center
+  position: relative
   &__title
     font-style: normal
     font-weight: bold
@@ -21,8 +23,49 @@
     border: 1px solid #d54062
     margin-bottom: 50px
   &__items
+    width: 100%
+    min-height: 330px
     display: flex
-    justify-content: space-between
+    overflow: hidden
+    &-slide
+      display: flex
+      justify-content: center
+      align-items: center
+    &-buttons
+      display: flex
+      justify-content: space-around
+      position: absolute
+      z-index: 1
+      top: 20%
+      right: 0
+      left: 0
+    &-button
+      &--next
+        width: 30px
+        height: 30px
+        display: flex
+        align-items: center
+        justify-content: center
+        border: 1px solid $text-white
+        border-radius: 50%
+        right: 0
+        transition: 0.5s
+        cursor: pointer
+        color: $text-white
+        outline: none
+      &--prev
+        width: 30px
+        height: 30px
+        display: flex
+        align-items: center
+        justify-content: center
+        border: 1px solid $text-white
+        border-radius: 50%
+        right: 0
+        transition: 0.5s
+        cursor: pointer
+        color: $text-white
+        outline: none
   &__item
     background-color: #191B1C
     margin: 0 20px

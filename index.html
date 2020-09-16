@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Nunito&family=Play:wght@400;700&display=swap"
     />
     <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -95,27 +96,52 @@
       <div class="season">
         <h1 class="season__title">Сезон 2020/2021</h1>
         <span class="season__span"></span>
-        <div class="season__items">
-          <div class="season__item" data-aos="fade-up" data-aos-duration="300">
-            <div class="season__image">
-              <img src="img/watch.png" alt="Watch" />
+        <div class="season__items swiper-slider">
+          <div class="season__items-wrapper swiper-wrapper">
+            <div class="season__items-slide swiper-slide">
+              <div class="season__item">
+                <div class="season__image">
+                  <img src="img/watch.png" alt="Watch" />
+                </div>
+                <div class="season__subtitle">Louis XVI ATHOS</div>
+                <div class="season__price">165 000 руб.</div>
+              </div>
             </div>
-            <div class="season__subtitle">Louis XVI ATHOS</div>
-            <div class="season__price">165 000 руб.</div>
+            <div class="season__items-slide swiper-slide">
+              <div class="season__item">
+                <div class="season__image">
+                  <img src="img/watch.png" alt="Watch" />
+                </div>
+                <div class="season__subtitle">Louis XVI ATHOS</div>
+                <div class="season__price">165 000 руб.</div>
+              </div>
+            </div>
+            <div class="season__items-slide swiper-slide">
+              <div class="season__item">
+                <div class="season__image">
+                  <img src="img/watch.png" alt="Watch" />
+                </div>
+                <div class="season__subtitle">Louis XVI ATHOS</div>
+                <div class="season__price">165 000 руб.</div>
+              </div>
+            </div>
+            <div class="season__items-slide swiper-slide">
+              <div class="season__item">
+                <div class="season__image">
+                  <img src="img/watch.png" alt="Watch" />
+                </div>
+                <div class="season__subtitle">Louis XVI ATHOS</div>
+                <div class="season__price">165 000 руб.</div>
+              </div>
+            </div>
           </div>
-          <div class="season__item" data-aos="fade-up" data-aos-duration="500">
-            <div class="season__image">
-              <img src="img/watch.png" alt="Watch" />
-            </div>
-            <div class="season__subtitle">Louis XVI ATHOS</div>
-            <div class="season__price">165 000 руб.</div>
+        </div>
+        <div class="season__items-buttons">
+          <div class="season__items-button--prev">
+            <i class="fa fa-arrow-left"></i>
           </div>
-          <div class="season__item" data-aos="fade-up" data-aos-duration="700">
-            <div class="season__image">
-              <img src="img/watch.png" alt="Watch" />
-            </div>
-            <div class="season__subtitle">Louis XVI ATHOS</div>
-            <div class="season__price">165 000 руб.</div>
+          <div class="season__items-button--next">
+            <i class="fa fa-arrow-right"></i>
           </div>
         </div>
       </div>
@@ -342,10 +368,13 @@
         </div>
       </div>
     </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://use.fontawesome.com/ab7298cf10.js"></script>
     <script src="js/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
