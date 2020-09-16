@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Nunito&family=Play:wght@400;700&display=swap"
     />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -66,7 +67,11 @@
       <section class="wrapper">
         <div class="container">
           <div class="content">
-            <div class="content__name">
+            <div
+              class="content__name"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <div class="content__logo">
                 <a href="#" class="content__link"><span>Porten</span></a>
               </div>
@@ -91,21 +96,21 @@
         <h1 class="season__title">Сезон 2020/2021</h1>
         <span class="season__span"></span>
         <div class="season__items">
-          <div class="season__item">
+          <div class="season__item" data-aos="fade-up" data-aos-duration="300">
             <div class="season__image">
               <img src="img/watch.png" alt="Watch" />
             </div>
             <div class="season__subtitle">Louis XVI ATHOS</div>
             <div class="season__price">165 000 руб.</div>
           </div>
-          <div class="season__item">
+          <div class="season__item" data-aos="fade-up" data-aos-duration="500">
             <div class="season__image">
               <img src="img/watch.png" alt="Watch" />
             </div>
             <div class="season__subtitle">Louis XVI ATHOS</div>
             <div class="season__price">165 000 руб.</div>
           </div>
-          <div class="season__item">
+          <div class="season__item" data-aos="fade-up" data-aos-duration="700">
             <div class="season__image">
               <img src="img/watch.png" alt="Watch" />
             </div>
@@ -126,10 +131,10 @@
       </div>
     </section>
     <section class="new">
-      <div class="new-left">
+      <div class="new-left" data-aos="fade-down" data-aos-delay="300">
         <img src="img/new-left__bg.jpg" alt="background" class="new-left__bg" />
       </div>
-      <div class="new-right">
+      <div class="new-right" data-aos="fade-up" data-aos-delay="500">
         <h1 class="new__title">Коллекция 2018</h1>
         <span class="new__span"></span>
         <div class="new__text">
@@ -150,56 +155,88 @@
           <h1 class="arrivals__title">Новые поступления</h1>
           <span class="arrivals__span"></span>
           <div class="arrivals__items">
-            <div class="arrivals__item">
+            <div
+              class="arrivals__item"
+              data-aos="fade-up"
+              data-aos-duration="300"
+            >
               <div class="arrivals__image">
                 <img src="img/watch.png" alt="Watch" />
               </div>
               <div class="arrivals__subtitle">Louis XVI ATHOS</div>
               <div class="arrivals__price">165 000 руб.</div>
             </div>
-            <div class="arrivals__item">
+            <div
+              class="arrivals__item"
+              data-aos="fade-up"
+              data-aos-duration="500"
+            >
               <div class="arrivals__image">
                 <img src="img/watch.png" alt="Watch" />
               </div>
               <div class="arrivals__subtitle">Louis XVI ATHOS</div>
               <div class="arrivals__price">165 000 руб.</div>
             </div>
-            <div class="arrivals__item">
+            <div
+              class="arrivals__item"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
               <div class="arrivals__image">
                 <img src="img/watch.png" alt="Watch" />
               </div>
               <div class="arrivals__subtitle">Louis XVI ATHOS</div>
               <div class="arrivals__price">165 000 руб.</div>
             </div>
-            <div class="arrivals__item">
+            <div
+              class="arrivals__item"
+              data-aos="fade-up"
+              data-aos-duration="900"
+            >
               <div class="arrivals__image">
                 <img src="img/watch.png" alt="Watch" />
               </div>
               <div class="arrivals__subtitle">Louis XVI ATHOS</div>
               <div class="arrivals__price">165 000 руб.</div>
             </div>
-            <div class="arrivals__item">
+            <div
+              class="arrivals__item"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <div class="arrivals__image">
                 <img src="img/watch.png" alt="Watch" />
               </div>
               <div class="arrivals__subtitle">Louis XVI ATHOS</div>
               <div class="arrivals__price">165 000 руб.</div>
             </div>
-            <div class="arrivals__item">
+            <div
+              class="arrivals__item"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div class="arrivals__image">
                 <img src="img/watch.png" alt="Watch" />
               </div>
               <div class="arrivals__subtitle">Louis XVI ATHOS</div>
               <div class="arrivals__price">165 000 руб.</div>
             </div>
-            <div class="arrivals__item">
+            <div
+              class="arrivals__item"
+              data-aos="fade-up"
+              data-aos-duration="1800"
+            >
               <div class="arrivals__image">
                 <img src="img/watch.png" alt="Watch" />
               </div>
               <div class="arrivals__subtitle">Louis XVI ATHOS</div>
               <div class="arrivals__price">165 000 руб.</div>
             </div>
-            <div class="arrivals__item">
+            <div
+              class="arrivals__item"
+              data-aos="fade-up"
+              data-aos-duration="2100"
+            >
               <div class="arrivals__image">
                 <img src="img/watch.png" alt="Watch" />
               </div>
@@ -216,22 +253,39 @@
           <h1 class="brand__title">Наши бренды</h1>
           <span class="brand__span"></span>
           <div class="brand__items">
-            <div class="brand__item">
+            <div
+              class="brand__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+            >
               <a href="#" class="brand__link"
                 ><img src="img/logo-one.png" alt="Logo brands"
               /></a>
             </div>
-            <div class="brand__item">
+            <div
+              class="brand__item"
+              data-aos="flip-left"
+              data-aos-duration="1500"
+            >
               <a href="#" class="brand__link"
                 ><img src="img/logo-one.png" alt="Logo brands"
               /></a>
             </div>
-            <div class="brand__item">
+            <div
+              class="brand__item"
+              data-aos="flip-left"
+              data-aos-duration="2000"
+            >
               <a href="#" class="brand__link"
                 ><img src="img/logo-one.png" alt="Logo brands"
               /></a>
             </div>
-            <div class="brand__item">
+            <div
+              class="brand__item"
+              data-aos="flip-left"
+              data-aos-duration="2500"
+            >
               <a href="#" class="brand__link"
                 ><img src="img/logo-one.png" alt="Logo brands"
               /></a>
@@ -288,5 +342,10 @@
         </div>
       </div>
     </footer>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
