@@ -66,8 +66,7 @@
         </div>
       </div>
     </header>
-    <div class="section">
-      <img src="img/bg-image.jpg" alt="" class="section__bg" />
+    <div class="section parallax-window">
       <section class="wrapper">
         <div class="container">
           <div class="content">
@@ -380,6 +379,10 @@
       AOS.init();
     </script>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script>
+      $(".parallax-window").parallax({ imageSrc: "img/bg-image.jpg" });
+    </script>
     <script src="js/main.js"></script>
   </body>
 </html>
