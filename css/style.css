@@ -1047,11 +1047,10 @@ button:hover {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-}
-
-button:hover {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  .collection__button:hover, .new__button:hover, .footer__button:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
 }
 
 @media (max-width: 520px) {
